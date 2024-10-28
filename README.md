@@ -9,10 +9,10 @@ This is a simple Android project developed as part of a college assignment. The 
 
 ## Screenshots
 
-![Login Screen](Screenshots/login_screen.png)  
+![Login Screen](Screenshoot/login_screen.png)  
 *Login Screen*
 
-![Volume Calculator](Screenshots/volume_calculator.png)  
+![Volume Calculator](Screenshoot/volume_calculator.png)  
 *Volume Calculator*
 
 ## How It Works
