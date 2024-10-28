@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    tools:context=".DashboardActivity">
+
+    <TextView
+        android:id="@+id/tvDashboardTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Program Hitung Volume Tabung"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/jaritabung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Jari Jari"
+        android:textSize="16sp"
+        android:padding="24dp"/>
+    <EditText
+        android:id="@+id/tinggitabung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Tinggi Tabung"
+        android:textSize="16sp"
+        android:padding="24dp"/>
+    <TextView
+        android:id="@+id/outputResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volume Tabung akan muncul di sini" />
+
+    <Button
+        android:id="@+id/calculateVolume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hitung" />
+
+</LinearLayout>
